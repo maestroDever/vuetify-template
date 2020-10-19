@@ -1,0 +1,122 @@
+{
+  "home": {
+    "hero": {
+      "title": "VuetifyTemplate",
+      "description": "Eine einfache Vuetify-Vorlage mit Struktur und vorinstallierten Plugins <br /> <span style=\"font-style: italic\">Dies ist keine Stilvorlage, sondern nur eine Code-Vorlage!</span>"
+    },
+    "install": {
+      "header": "Alle Plugins und Implementierungen",
+      "subheader": "Plugins",
+      "plugins": [
+        {
+          "title": "vue-router",
+          "subtitle": "Navigiert zwischen verschiedenen Ansichten",
+          "text": "Beispielansichten: Home und About <br /> Der Router wird in /plugins/router.js konfiguriert",
+          "buttons": [
+            {
+              "text": "Doks",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "router.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/plugins/router.js"
+            }
+          ]
+        },
+        {
+          "title": "vuex",
+          "subtitle": "Der Vuex Store speichert Anwendungszustände",
+          "text": "Im Side Drawer implementiert. <br /> Die Konfigurationsdateien sind Store.js und Vuex.js",
+          "buttons": [
+            {
+              "text": "Doks",
+              "link": "https://vuex.vuejs.org/guide/"
+            },
+            {
+              "text": "Store.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/plugins/store.js"
+            },
+            {
+              "text": "vuex.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/utils/vuex.js"
+            }
+          ]
+        },
+        {
+          "title": "Themes",
+          "subtitle": "Anpassbare Themes: Hell und Dunkel",
+          "text": "In der App-Bar ist ein Theme-Switch implementiert. <br /> Themes werden in der Datei vuetify.js konfiguriert.",
+          "buttons": [
+            {
+              "text": "Doks",
+              "link": "https://vuetifyjs.com/en/customization/theme"
+            },
+            {
+              "text": "vuetify.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/plugins/vuetify.js"
+            }
+          ]
+        },
+        {
+          "title": "vue-i18n",
+          "subtitle": "Internationalisierungs-Plugin",
+          "text": "Das gesamte Projekt ist internationalisiert. Die Sprachdateien werden in /locales gespeichert. Die Konfigurationsdatei ist i18n.js.",
+          "buttons": [
+            {
+              "text": "Doks",
+              "link": "https://kazupon.github.io/vue-i18n/started.html"
+            },
+            {
+              "text": "i18n.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/plugins/i18n.js"
+            },
+            {
+              "text": "locales",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/tree/master/src/locales"
+            }
+          ]
+        }
+      ]
+    },
+    "start": {
+      "header": "whats next",
+      "subheader": "Start",
+      "steps": [
+        {
+          "step": "Klonen",
+          "title": "Verwende das GitHub-Repository als Vorlage",
+          "text": "Klicken Sie unten auf den Button um zum Git-Repository zu gelangen. Danach auf den grünen Template Button oben rechts, um das eigene Repository auf der Basis des VuetifyTemplates einzurichten.",
+          "buttons": [
+            {
+              "text": "GitHub Repository",
+              "link": "https://github.com/allesvergeben/Vuetify-Template"
+            }
+          ]
+        },
+        {
+          "step": "Hiiilfee?",
+          "title": "Trete dem Vuetify Discord bei",
+          "text": "Holen Sie sich sofort Hilfe vom Entwicklungsteam und anderen Community-Mitgliedern auf dem offiziellen Discord-Server und erhalten Sie Zugang zu privaten Support-Kanälen.",
+          "buttons": [
+            {
+              "text": "Discord",
+              "link": "https://discordapp.com/invite/s93b7Fv"
+            }
+          ]
+        },
+        {
+          "step": "Vorschläge",
+          "title": "Fehler oder Vorschläge fürs VuetifyTemplate",
+          "text": "Wenn Sie Vorschläge, Verbesserungen haben oder Sie einen  Fehler  melden wollen, gehen Sie einfach in das Git-Repository und erstellen ein Ticket.",
+          "buttons": [
+            {
+              "text": "GitHub",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/issues"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+
